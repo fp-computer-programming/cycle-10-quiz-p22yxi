@@ -43,7 +43,7 @@ def food_costs(item_lst, price):
         for index, clothes in enumerate(item):
             item[index] = clothes + ' $' + str(price[0])
             del price[0]
-        prices_and_items = item
+        prices_and_items = item_lst
     return prices_and_items
     
 
